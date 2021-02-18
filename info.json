@@ -1,0 +1,13 @@
+{
+    "theArrayOfObjects" : [
+        {
+            "name": "FirstObject"
+        },
+        {
+            "name": "SecondObject"
+        },
+        {
+            "name": "ThirdObject"
+        }
+    ]
+}
