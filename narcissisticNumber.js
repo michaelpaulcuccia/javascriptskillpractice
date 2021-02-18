@@ -1,19 +1,19 @@
 /*
-A Narcissistic Number is a number which is the sum of its own digits, each raised to the power of the number or digits in a given base.
+A Narcissistic Number is a number which is the sum of its own digits, 
+each raised to the power of the number or digits in a given base.
 
 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153
 1     5     3                    153
 
 1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1634
 1     6     3     4                           1634
-*/
 
-/*
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
 Math.pow(base, exponent)
+
 */
 
-//console.log(Math.pow(4, 4));  
+console.log(Math.pow(4, 4));
 
 
 const narcissist = number => {
@@ -40,5 +40,3 @@ const narcissist = number => {
 
 narcissist(153);
 narcissist(234);
-
-

@@ -1,4 +1,12 @@
-//[...Array(product.countInStock).keys()].map(x => (<option key={x + 1} value={x + 1}>{x + 1}</option>))
+/*
+ORIGINAL CODE:
+
+[...Array(product.countInStock).keys()].map(x => (<option key={x + 1} value={x + 1}>{x + 1}</option>))
+
+Create an OPTIONS list (Html element) based on the number of items in stock
+
+*/
+
 
 let product = {
     id: 1,
